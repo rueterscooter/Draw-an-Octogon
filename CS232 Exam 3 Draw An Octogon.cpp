@@ -26,7 +26,7 @@ void getUserNum(int &userNumPar) {
 
 void drawAnOctogon(char &userChoice) {
 	int userNum = 0;
-	cout << "Would you like to draw a Octogon? (Y / N) ";
+	cout << "Would you like to draw an Octagon? (Y / N) ";
 	cin >> userChoice;
 	if (userChoice == 'n' || userChoice == 'N') {
 		return;
